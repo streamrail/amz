@@ -1,7 +1,7 @@
 package s3
 
 import (
-	"gopkg.in/amz.v1/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 var originalStrategy = attempts

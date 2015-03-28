@@ -3,9 +3,9 @@ package s3_test
 import (
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/s3"
-	"gopkg.in/amz.v1/s3/s3test"
+	"github.com/streamrail/amz/aws"
+	"github.com/streamrail/amz/s3"
+	"github.com/streamrail/amz/s3/s3test"
 )
 
 type LocalServer struct {

@@ -5,9 +5,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/exp/sdb"
-	"gopkg.in/amz.v1/testutil"
+	"github.com/streamrail/amz/aws"
+	"github.com/streamrail/amz/exp/sdb"
+	"github.com/streamrail/amz/testutil"
 )
 
 func Test(t *testing.T) {

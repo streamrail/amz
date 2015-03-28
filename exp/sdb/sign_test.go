@@ -3,8 +3,8 @@ package sdb_test
 import (
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
-	"gopkg.in/amz.v1/exp/sdb"
+	"github.com/streamrail/amz/aws"
+	"github.com/streamrail/amz/exp/sdb"
 )
 
 // SimpleDB ReST authentication docs: http://goo.gl/CaY81

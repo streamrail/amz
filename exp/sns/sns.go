@@ -32,7 +32,7 @@ import (
 	"strconv"
 	"time"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 // The SNS type encapsulates operation with an SNS region.
