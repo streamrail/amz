@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/streamrail/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 var b64 = base64.StdEncoding
