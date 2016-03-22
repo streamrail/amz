@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 // The IAM type encapsulates operations operations with the IAM endpoint.

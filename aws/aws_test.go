@@ -7,7 +7,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 func Test(t *testing.T) {
