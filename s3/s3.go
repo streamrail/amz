@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"aws"
+	"amz/aws"
 )
 
 const debug = false
