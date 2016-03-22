@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"gopkg.in/amz.v1/aws"
+	"github.com/streamrail/aws"
 )
 
 var b64 = base64.StdEncoding
