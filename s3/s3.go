@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"amz/aws"
+	"github.com/streamrail/amz/aws"
 )
 
 const debug = false
