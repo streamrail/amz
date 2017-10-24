@@ -55,7 +55,7 @@ var USEast2 = Region{
 	"https://sns.us-east-2.amazonaws.com",
 	"https://sqs.us-east-2.amazonaws.com",
 	"",
-	SignV2,
+	SignV4,
 }
 
 var USWest = Region{
