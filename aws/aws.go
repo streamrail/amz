@@ -44,6 +44,20 @@ var USEast = Region{
 	SignV2,
 }
 
+var USEast2 = Region{
+	"us-east-2",
+	"https://ec2.us-east-2.amazonaws.com",
+	"https://s3.us-east-2.amazonaws.com",
+	"",
+	false,
+	false,
+	"",
+	"https://sns.us-east-2.amazonaws.com",
+	"https://sqs.us-east-2.amazonaws.com",
+	"",
+	SignV2,
+}
+
 var USWest = Region{
 	"us-west-1",
 	"https://ec2.us-west-1.amazonaws.com",
@@ -162,6 +176,7 @@ var Regions = map[string]Region{
 	APSoutheast2.Name: APSoutheast2,
 	EUWest.Name:       EUWest,
 	USEast.Name:       USEast,
+	USEast2.Name:      USEast2,
 	USWest.Name:       USWest,
 	USWest2.Name:      USWest2,
 	SAEast.Name:       SAEast,
