@@ -44,20 +44,6 @@ var USEast = Region{
 	SignV2,
 }
 
-var USEast2 = Region{
-	"us-east-2",
-	"https://ec2.us-east-2.amazonaws.com",
-	"https://s3.us-east-2.amazonaws.com",
-	"",
-	false,
-	false,
-	"",
-	"https://sns.us-east-2.amazonaws.com",
-	"https://sqs.us-east-2.amazonaws.com",
-	"",
-	SignV4,
-}
-
 var USWest = Region{
 	"us-west-1",
 	"https://ec2.us-west-1.amazonaws.com",
